@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-vpw-bg text-slate-800; }
+.card { @apply bg-white border border-slate-100 shadow-sm rounded-2xl p-4; }
+.input { @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2 outline-none focus:border-vpw-primary; }
+.btn-primary { @apply bg-vpw-primary text-white px-4 py-2 rounded-xl hover:opacity-90 transition; }
