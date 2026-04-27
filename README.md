@@ -5,12 +5,12 @@ A full-stack mutual fund investment and financial planning platform with user an
 ## Project Structure
 
 ```
-vpw-app/
-  frontend/
-  backend/
+.
+├── frontend/
+└── backend/
 ```
 
-## Backend Setup
+## Run Backend (Terminal 1)
 
 ```bash
 cd backend
@@ -25,7 +25,7 @@ Optional seed data:
 npm run seed
 ```
 
-## Frontend Setup
+## Run Frontend (Terminal 2)
 
 ```bash
 cd frontend
